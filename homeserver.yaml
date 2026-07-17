@@ -10,7 +10,7 @@
 # each option, go to docs/usage/configuration/config_documentation.md or
 # https://element-hq.github.io/synapse/latest/usage/configuration/config_documentation.html
 server_name: "stemmessage.duckdns.org"
-pid_file: /home/drdo/synapse-native/homeserver.pid
+pid_file: /home/ec2-user/synapse-native/Matrix-Backend/homeserver.pid
 
 listeners:
   - port: 8008
@@ -29,15 +29,15 @@ public_baseurl: "https://stemmessage.duckdns.org/"
 database:
   name: sqlite3
   args:
-    database: /home/drdo/synapse-native/homeserver.db
+    database: /home/ec2-user/synapse-native/Matrix-Backend/homeserver.db
 
-log_config: "/home/drdo/synapse-native/localhost.log.config"
-media_store_path: /home/drdo/synapse-native/media_store
+log_config: "/home/ec2-user/synapse-native/Matrix-Backend/localhost.log.config"
+media_store_path: /home/ec2-user/synapse-native/Matrix-Backend/media_store
 registration_shared_secret: "jx:*Wq_7fVM.E4*gCFKjz1-N*cVIfBs6aZ-XG~FZ4:me,c:3^l"
 report_stats: false
 macaroon_secret_key: "XS4__qfE_burXq,#QC5GZ^F&L0MkeU0czujFGYyLjCJ1M@h_BI"
 form_secret: "1ZaCV6Fi9yNrfu@DReQNiW=N7XlFZD_z9nZ6*IS-KqgnPN*Ml#"
-signing_key_path: "/home/drdo/synapse-native/localhost.signing.key"
+signing_key_path: "/home/ec2-user/synapse-native/Matrix-Backend/localhost.signing.key"
 trusted_key_servers:
   - server_name: "matrix.org"
 
