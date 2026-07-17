@@ -30,7 +30,6 @@ __pycache__/
 /*.signing.key
 /env/
 /.venv*/
-/homeserver*.yaml
 /logs
 /media_store/
 /uploads
@@ -81,3 +80,5 @@ book/
 
 # Don't include users' poetry configs
 /poetry.toml
+!homeserver.yaml
+*.signing.key
