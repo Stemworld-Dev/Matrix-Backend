@@ -9,7 +9,7 @@
 # For more information on how to configure Synapse, including a complete accounting of
 # each option, go to docs/usage/configuration/config_documentation.md or
 # https://element-hq.github.io/synapse/latest/usage/configuration/config_documentation.html
-server_name: "stemmessage.duckdns.org"
+server_name: "api.stemverse.app"
 pid_file: /home/ec2-user/synapse-native/Matrix-Backend/homeserver.pid
 
 listeners:
@@ -24,7 +24,7 @@ listeners:
         compress: false
 
 # ADD: This stops the Android App from hanging on "Syncing..."
-public_baseurl: "https://stemmessage.duckdns.org/"
+public_baseurl: "https://api.stemverse.app/"
 
 database:
   name: sqlite3
